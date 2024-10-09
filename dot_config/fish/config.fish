@@ -181,3 +181,5 @@ zoxide init fish | source
 
 ## kubeconfig path
 set -x KUBECONFIG /home/sudo-samurai/.kube/merged-config
+
+
