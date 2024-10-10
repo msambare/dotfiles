@@ -1,0 +1,28 @@
+# Import the theme
+
+import = [
+  # uncomment the flavour you want below:
+  # "~/.config/alacritty/catppuccin-frappe.toml"
+  # "~/.config/alacritty/catppuccin-macchiato.toml"
+  "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+# Custom config
+
+[window]
+dimensions = { columns = 185, lines = 50 }
+position = { x = 1624, y = 1371 }
+opacity = 1.0
+dynamic_title = true
+
+[scrolling]
+history = 100000
+
+[selection]
+save_to_clipboard = true
+
+[mouse]
+hide_when_typing = true
+
+[shell]
+program = "/usr/bin/zellij"
