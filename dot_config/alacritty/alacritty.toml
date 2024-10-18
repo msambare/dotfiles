@@ -30,4 +30,4 @@ bindings = [
 ]
 
 [shell]
-program = "/usr/bin/zellij"
+program = "/usr/bin/fish"
